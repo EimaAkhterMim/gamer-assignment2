@@ -20,6 +20,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 
@@ -41,8 +42,8 @@ nav .header {
 }
 
 .himage {
-    width: 86px;
-    height: 40px;
+    width: 5.3rem;
+    height: 2.5rem;
 }
 
 nav>ul {
@@ -60,12 +61,138 @@ nav li {
 }
 
 .follow {
-    
+
     width: 200px;
     height: 40px;
     border-radius: 8px;
     padding: 10px 10px 5px 10px;
     background: rgba(11, 2, 35, 0.10);
     text-align: center;
-   
+}
+
+
+/* banner section styles */
+
+.play{
+/* padding: 0px 240px 0px 0px; */
+height: 400px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.banner-img {
+    margin-top: 20px;
+    margin-right: 200px;
+    background: #FFF;
+}
+
+.banner-header {
+    color: #ca23b4;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 800;
+
+}
+
+.banner-content{
+    width: 300px;
+    padding: 150px 180px;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.description {
+    color: #534C64;
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
+
+.btn-primary{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color:#FF42A5;
+}
+
+.btn-sec{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color:#4EC5F7;
+}
+
+.banner h3 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.banner img {
+    width: 450px;
+    height: 450px;
+}
+
+
+
+
+
+
+
+
+/* responsive styles for mobile and tablet */
+
+
+@media screen and (max-width: 576px) {
+
+    nav,
+    nav>ul {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    .himage {
+        width: 5rem;
+        height: 2.2rem;
+    }
+
+    .follow {
+        width: 150px;
+        height: 30px;
+    }
+}
+
+
+
+/* media queary for tablet */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    nav {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    header {
+        padding: 50px;
+    }
 }
