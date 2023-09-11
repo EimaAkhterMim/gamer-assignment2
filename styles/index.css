@@ -163,7 +163,8 @@ height: 400px;
 @media screen and (max-width: 576px) {
 
     nav,
-    nav>ul {
+    nav>ul,
+    .banner {
         flex-direction: column;
     }
 
@@ -180,6 +181,18 @@ height: 400px;
         width: 150px;
         height: 30px;
     }
+    .banner img {
+        width: 350px;
+        height: 350px;
+    }
+    .banner-img {
+        margin-right: 50px;
+    }
+    .banner-content{
+        width: 300px;
+        padding: 55px;
+    }
+    
 }
 
 
@@ -194,5 +207,8 @@ height: 400px;
 
     header {
         padding: 50px;
+    }
+    .banner{
+        flex-direction: column;
     }
 }
