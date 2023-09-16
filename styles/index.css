@@ -143,8 +143,8 @@ nav li {
 }
 
 .banner img {
-    width: 450px;
-    height: 450px;
+    width: 550px;
+    height: 550px;
 }
 
 
@@ -214,22 +214,24 @@ nav li {
     gap: 100px;
 
 }
-.instantly{
+
+.instantly {
     margin-top: 150px;
 }
+
 .play-para {
     width: 350px;
 }
 
 .robin-hood {
-    width: 550px;
-    height: 550px;
+    width: 600px;
+    height: 600px;
     border-radius: 8px;
     margin-left: 80px;
 }
 
 .cartoon {
-    width: 220px;
+    width: 250px;
     height: 250px;
     position: relative;
     bottom: 200px;
@@ -239,6 +241,38 @@ nav li {
     text-align: right;
 }
 
+
+/* icons section styles */
+
+.icons {
+    /* width: 1920px; */
+    height: 350px;
+    background: #f7f2f6;
+    padding: 130px ;
+}
+
+.first-column {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+
+}
+
+
+.rectangle-img {
+    display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    align-items: center;
+    width: 243px;
+    height: 100px;
+
+}
+
+.second-column{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
@@ -285,13 +319,14 @@ nav li {
         width: 300px;
         padding: 55px;
     }
+
     .banner-header {
-       
+
         font-size: 6rem;
         font-weight: 600;
-    
+
     }
-    
+
 
     .online-games {
         margin-top: 500px;
@@ -311,25 +346,31 @@ nav li {
         margin-right: 30px;
 
     }
-    .robin-hood{
+
+    .robin-hood {
         width: 320px;
         height: 350px;
     }
-    .cartoon{
+
+    .cartoon {
         width: 190px;
         height: 200px;
     }
+
     .installs {
         height: 500px;
         padding: 5px;
     }
+
     .cmn {
         text-align: center;
     }
-    .play-img{
+
+    .play-img {
         height: 500px;
     }
-    .play{
+
+    .play {
         padding: 10px;
         height: 500px;
     }
@@ -374,12 +415,14 @@ nav li {
     .description2 {
         width: 380px;
     }
-    .play{
+
+    .play {
         padding: 50px;
         height: 500px;
     }
+
     .cmn {
         text-align: center;
-        
+
     }
 }
