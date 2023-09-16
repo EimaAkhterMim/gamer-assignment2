@@ -168,8 +168,8 @@ nav li {
 }
 
 .online-img img {
-    width: 245px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
 
 }
 
@@ -222,8 +222,8 @@ nav li {
 }
 
 .robin-hood {
-    width: 450px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
     border-radius: 8px;
     margin-left: 80px;
 }
@@ -380,5 +380,6 @@ nav li {
     }
     .cmn {
         text-align: center;
+        
     }
 }
