@@ -248,12 +248,14 @@ nav li {
     /* width: 1920px; */
     height: 350px;
     background: #f7f2f6;
-    padding: 130px ;
+    padding: 100px;
 }
 
 .first-column {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    /* justify-content: space-around; */
+    grid-template-columns: repeat(5,1fr);
+    gap: 50px;
     margin-bottom: 80px;
 
 }
@@ -264,15 +266,22 @@ nav li {
     border-radius: 50px;
     background: #FFF;
     align-items: center;
-    width: 243px;
+    width: 230px;
     height: 100px;
 
 }
 
-.second-column{
-    display: flex;
-    justify-content: space-around;
+.icons-para {
+    color: #0B0223;
+    font-size: 1.25rem;
+    font-weight: 600;
+
 }
+
+/* .second-column{ */
+/* display: flex; */
+/* justify-content: space-around; */
+/* } */
 
 
 
@@ -375,6 +384,36 @@ nav li {
         height: 500px;
     }
 
+    .icons {
+        margin-top: 400px;
+        padding: 8px;
+        height: 280px;
+    }
+    .first-column{
+        /* flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 5px;
+        margin-bottom:0px;
+    }
+
+    .rectangle-img {
+        
+        border-radius: 5px;
+        background: #FFF;
+        align-items: center;
+        width: 125px;
+        height: 80px;
+    
+    }
+    .icons-para {
+        color: #0B0223;
+        font-size: .90rem;
+        font-weight: 600;
+    
+    }
+    
+
 
 
 
@@ -425,4 +464,22 @@ nav li {
         text-align: center;
 
     }
+
+    .icons {
+        margin-top: 500px;
+        padding: 8px;
+        height: 380px;
+    }
+
+    .first-column{
+        /* flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        margin-bottom:0px;
+    }
+
+
+
+
 }
